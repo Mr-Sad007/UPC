@@ -28,6 +28,8 @@ paper were copied without altering results. Markdown links are repository-relati
 The public audit accepts AI_USAGE.md when the private AI_LOG.md is absent and uses
 a local-home-directory privacy check instead of a hardcoded original account name.
 The exact original prompt remains available for the AI-query content check.
+PDF, PNG and NPZ artifacts have explicit binary Git attributes so Windows text
+line-ending conversion cannot alter them on checkout.
 
 ## Remaining submission work
 
