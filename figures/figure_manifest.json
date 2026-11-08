@@ -1,0 +1,39 @@
+{
+  "trajectory": {
+    "axis_0_x": "$x$ (m)",
+    "axis_0_y": "$y$ (m)",
+    "axis_0_z": "$z$ (m)"
+  },
+  "goal_plane": {
+    "axis_0_x": "$y$ (m)",
+    "axis_0_y": "$z$ (m)"
+  },
+  "validation": {
+    "axis_0_x": "Goal-plane error (m)",
+    "axis_0_y": "Cumulative probability (1)",
+    "axis_1_x": "True coordinate (m)",
+    "axis_1_y": "Ensemble mean coordinate (m)"
+  },
+  "measurement_noise": {
+    "axis_0_x": "Coordinate noise $\\sigma$ (mm)",
+    "axis_0_y": "Paired goal-plane RMSE (m)",
+    "axis_1_x": "Coordinate noise $\\sigma$ (mm)",
+    "axis_1_y": "No point for airborne truth (%)"
+  },
+  "observation_duration": {
+    "axis_0_x": "Last observation time $T$ (ms)",
+    "axis_0_y": "Paired goal-plane RMSE (m)"
+  },
+  "aerodynamic_sensitivity": {
+    "axis_0_x": "Drag coefficient $C_D$ (1)",
+    "axis_0_y": "Predicted coordinate (m)",
+    "axis_1_x": "Spin-axis angle in $y$-$z$ plane (deg)",
+    "axis_1_y": "Predicted coordinate (m)"
+  },
+  "uncertainty_components": {
+    "axis_0_x": "Uncertainty scenario (categorical)",
+    "axis_0_y": "Coordinate standard deviation (m)",
+    "axis_1_x": "Prior spin ceiling (rad/s)",
+    "axis_1_y": "Mean coordinate $\\pm$ 1 s.d. (m)"
+  }
+}

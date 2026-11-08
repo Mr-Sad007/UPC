@@ -1,0 +1,33 @@
+{
+  "observation_scalars": 6,
+  "dynamic_parameters": 7,
+  "dimensionless_parameter_scales": [
+    30.0,
+    10.0,
+    10.0,
+    0.25,
+    40.0,
+    40.0,
+    40.0
+  ],
+  "singular_values_m": [
+    3.2358660267723756,
+    1.0973295234730769,
+    1.0949637515411528,
+    0.014936749121587089,
+    0.008365714952546685,
+    0.008365165717883262
+  ],
+  "rank": 6,
+  "null_direction_dimensionless": [
+    1.6650386780042952e-05,
+    -0.00011818462493452693,
+    -6.842892744669413e-05,
+    -3.910971146201991e-06,
+    -0.9378690871125969,
+    -0.2800119158226351,
+    -0.20492653194075833
+  ],
+  "null_residual_norm_m": 2.4759308114594203e-16,
+  "note": "Rank does not demonstrate practical precision; independent lift scale would add an exact spin-scale degeneracy."
+}

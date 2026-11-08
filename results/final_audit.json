@@ -1,0 +1,310 @@
+{
+  "checks": [
+    {
+      "check": "Original observations preserved",
+      "passed": true,
+      "detail": "Content comparison to official problem coordinates; no checksum."
+    },
+    {
+      "check": "Goal geometry preserved",
+      "passed": true,
+      "detail": "Ball-center target, separate radius clearance."
+    },
+    {
+      "check": "Complete paired validation",
+      "passed": true,
+      "detail": "1000 kicks per noise level; all three methods retained."
+    },
+    {
+      "check": "Independent RMSE M0 sigma=0.005",
+      "passed": true,
+      "detail": "Recomputed directly from raw predicted and true coordinates."
+    },
+    {
+      "check": "All-case classification M0 sigma=0.005",
+      "passed": true,
+      "detail": "Includes physical misses and ground-before-goal cases."
+    },
+    {
+      "check": "Independent RMSE M1 sigma=0.005",
+      "passed": true,
+      "detail": "Recomputed directly from raw predicted and true coordinates."
+    },
+    {
+      "check": "All-case classification M1 sigma=0.005",
+      "passed": true,
+      "detail": "Includes physical misses and ground-before-goal cases."
+    },
+    {
+      "check": "Independent RMSE M2 sigma=0.005",
+      "passed": true,
+      "detail": "Recomputed directly from raw predicted and true coordinates."
+    },
+    {
+      "check": "All-case classification M2 sigma=0.005",
+      "passed": true,
+      "detail": "Includes physical misses and ground-before-goal cases."
+    },
+    {
+      "check": "Independent RMSE M0 sigma=0.01",
+      "passed": true,
+      "detail": "Recomputed directly from raw predicted and true coordinates."
+    },
+    {
+      "check": "All-case classification M0 sigma=0.01",
+      "passed": true,
+      "detail": "Includes physical misses and ground-before-goal cases."
+    },
+    {
+      "check": "Independent RMSE M1 sigma=0.01",
+      "passed": true,
+      "detail": "Recomputed directly from raw predicted and true coordinates."
+    },
+    {
+      "check": "All-case classification M1 sigma=0.01",
+      "passed": true,
+      "detail": "Includes physical misses and ground-before-goal cases."
+    },
+    {
+      "check": "Independent RMSE M2 sigma=0.01",
+      "passed": true,
+      "detail": "Recomputed directly from raw predicted and true coordinates."
+    },
+    {
+      "check": "All-case classification M2 sigma=0.01",
+      "passed": true,
+      "detail": "Includes physical misses and ground-before-goal cases."
+    },
+    {
+      "check": "Independent RMSE M0 sigma=0.02",
+      "passed": true,
+      "detail": "Recomputed directly from raw predicted and true coordinates."
+    },
+    {
+      "check": "All-case classification M0 sigma=0.02",
+      "passed": true,
+      "detail": "Includes physical misses and ground-before-goal cases."
+    },
+    {
+      "check": "Independent RMSE M1 sigma=0.02",
+      "passed": true,
+      "detail": "Recomputed directly from raw predicted and true coordinates."
+    },
+    {
+      "check": "All-case classification M1 sigma=0.02",
+      "passed": true,
+      "detail": "Includes physical misses and ground-before-goal cases."
+    },
+    {
+      "check": "Independent RMSE M2 sigma=0.02",
+      "passed": true,
+      "detail": "Recomputed directly from raw predicted and true coordinates."
+    },
+    {
+      "check": "All-case classification M2 sigma=0.02",
+      "passed": true,
+      "detail": "Includes physical misses and ground-before-goal cases."
+    },
+    {
+      "check": "Independent RMSE M0 sigma=0.05",
+      "passed": true,
+      "detail": "Recomputed directly from raw predicted and true coordinates."
+    },
+    {
+      "check": "All-case classification M0 sigma=0.05",
+      "passed": true,
+      "detail": "Includes physical misses and ground-before-goal cases."
+    },
+    {
+      "check": "Independent RMSE M1 sigma=0.05",
+      "passed": true,
+      "detail": "Recomputed directly from raw predicted and true coordinates."
+    },
+    {
+      "check": "All-case classification M1 sigma=0.05",
+      "passed": true,
+      "detail": "Includes physical misses and ground-before-goal cases."
+    },
+    {
+      "check": "Independent RMSE M2 sigma=0.05",
+      "passed": true,
+      "detail": "Recomputed directly from raw predicted and true coordinates."
+    },
+    {
+      "check": "All-case classification M2 sigma=0.05",
+      "passed": true,
+      "detail": "Includes physical misses and ground-before-goal cases."
+    },
+    {
+      "check": "Normalized weights",
+      "passed": true,
+      "detail": "Complete central ensemble."
+    },
+    {
+      "check": "Independent geometric probability",
+      "passed": true,
+      "detail": "In-goal mass includes every particle; no outcome rejection."
+    },
+    {
+      "check": "Independent predictive mean",
+      "passed": true,
+      "detail": "Conditional on airborne goal-plane intersection."
+    },
+    {
+      "check": "Empirical 95% content",
+      "passed": true,
+      "detail": "Posterior content checked separately from synthetic frequentist coverage."
+    },
+    {
+      "check": "Abstract limit",
+      "passed": true,
+      "detail": "173 words; limit 300."
+    },
+    {
+      "check": "Manuscript result trace",
+      "passed": true,
+      "detail": "Generated article and TeX use the accepted saved numeric records."
+    },
+    {
+      "check": "Anonymity scaffold",
+      "passed": true,
+      "detail": "Local home-directory path absent; personal and institution identifiers still require manual review."
+    },
+    {
+      "check": "AI query retained verbatim",
+      "passed": true,
+      "detail": "Exact user project request preserved, including original line breaks."
+    },
+    {
+      "check": "References verified",
+      "passed": true,
+      "detail": "Six official or author-institution records; no unverified DOI inserted."
+    },
+    {
+      "check": "Programmatic figure labels",
+      "passed": true,
+      "detail": "Every visible coordinate axis has a variable/quantity and unit or dimensionless marker."
+    },
+    {
+      "check": "PDF actually generated",
+      "passed": true,
+      "detail": "Renderer recorded; PDF presence is not claimed as LaTeX compilation."
+    }
+  ],
+  "passed": 38,
+  "failed": 0,
+  "latex_compiled": false,
+  "submission_ready": false,
+  "human_actions": [
+    "Replace TEAM_NUMBER",
+    "Review/append complete exact AI output and verify anonymity",
+    "Review physics assumptions and submit attachment before official deadline"
+  ],
+  "scientific_limitations": [
+    "Assumed aerodynamic prior and lift law",
+    "No field validation or measured camera error",
+    "Undercoverage and low ESS in the longer-window extension"
+  ],
+  "requested_checklist": [
+    [
+      "A",
+      "PASS",
+      "Original positions and goal dimensions preserved."
+    ],
+    [
+      "B",
+      "PASS",
+      "Reported numerical results come from executed calculations."
+    ],
+    [
+      "C",
+      "PASS",
+      "Complete python -m src.run_all execution returned exit code 0."
+    ],
+    [
+      "D",
+      "PASS",
+      "Seven figure pairs generated programmatically."
+    ],
+    [
+      "E",
+      "PASS",
+      "Coordinate axes have units; category axes are explicitly categorical."
+    ],
+    [
+      "F",
+      "PASS",
+      "Core manuscript quantities trace to saved numerical records."
+    ],
+    [
+      "G",
+      "PASS",
+      "No fabricated citation identified; six source identities verified."
+    ],
+    [
+      "H",
+      "PASS",
+      "No unverified bibliography entry retained."
+    ],
+    [
+      "I",
+      "PASS",
+      "SI-unit equations and force-direction/ballistic tests checked."
+    ],
+    [
+      "J",
+      "PASS",
+      "Aerodynamic, measurement and synthetic-population assumptions declared."
+    ],
+    [
+      "K",
+      "PASS",
+      "Six scalar constraints and aerodynamic non-identifiability explicitly analyzed."
+    ],
+    [
+      "L",
+      "PASS",
+      "General-method synthetic validation, misses and mismatch test performed."
+    ],
+    [
+      "M",
+      "PASS",
+      "Measurement, nuisance and combined uncertainty quantified."
+    ],
+    [
+      "N",
+      "PASS",
+      "Physical no-point rates, numerical-failure mass and undercoverage retained."
+    ],
+    [
+      "O",
+      "CONDITIONAL",
+      "Science paper anonymity checked; raw AI archive still needs anonymity review."
+    ],
+    [
+      "P",
+      "PASS",
+      "Abstract is 173 words, below 300."
+    ],
+    [
+      "Q",
+      "OPEN",
+      "AI disclosure section and exact internal archive exist; full closing appendix requires team review."
+    ],
+    [
+      "R",
+      "OPEN",
+      "TEAM_NUMBER deliberately remains until the actual team number is supplied."
+    ],
+    [
+      "S",
+      "PASS",
+      "No student/institution identity inserted into the scientific manuscript."
+    ],
+    [
+      "T",
+      "PASS",
+      "Manuscript uses appropriately rounded values; raw machine records keep calculation precision."
+    ]
+  ]
+}

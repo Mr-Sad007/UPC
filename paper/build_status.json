@@ -1,0 +1,10 @@
+{
+  "latex_compiled": false,
+  "pdf_exists": true,
+  "renderer": "ReportLab fallback",
+  "submission_ready": false,
+  "blockers": [
+    "TEAM_NUMBER placeholder",
+    "Complete exact AI input/output appendix must be appended and reviewed"
+  ]
+}

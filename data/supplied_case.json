@@ -1,0 +1,8 @@
+{
+  "source": "Official UPC 2026 Problem B, verified 2026-11-07",
+  "times_s": [0.0, 0.05, 0.10],
+  "positions_m": [[0.0, 0.0, 0.11], [1.50, 0.45, 0.44], [2.96, 0.86, 0.74]],
+  "goal_x_m": 11.0,
+  "goal_y_bounds_m": [-3.66, 3.66],
+  "goal_z_bounds_m": [0.0, 2.44]
+}

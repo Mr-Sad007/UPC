@@ -1,0 +1,1124 @@
+{
+  "raw_observations_m": [
+    [
+      0.0,
+      0.0,
+      0.11
+    ],
+    [
+      1.5,
+      0.45,
+      0.44
+    ],
+    [
+      2.96,
+      0.86,
+      0.74
+    ]
+  ],
+  "times_s": [
+    0,
+    0.05,
+    0.1
+  ],
+  "M0": {
+    "velocity_m_s": [
+      30.4,
+      9.4,
+      6.900000000000001
+    ],
+    "effective_acceleration_m_s2": [
+      -16.0,
+      -16.0,
+      -12.000000000000028
+    ],
+    "time_s": 0.4050083612273947,
+    "point_m": [
+      11.0,
+      2.494824414224712,
+      1.9203670564844226
+    ],
+    "status": "goal_plane"
+  },
+  "M1": {
+    "velocity_m_s": [
+      30.2583641564776,
+      8.84963519090461,
+      6.927945906656113
+    ],
+    "Cd": 0.25,
+    "time_s": 0.39376024732533554,
+    "point_m": [
+      11.000000000000316,
+      3.217159612348509,
+      1.9063248786846316
+    ],
+    "status": "goal_plane",
+    "residuals_m": [
+      0.0033541443521902803,
+      0.01227739992920246,
+      -0.0004968047517490137,
+      -0.0017271706110064677,
+      -0.006213548734970931,
+      0.00024419861535740495
+    ],
+    "sse_m2": 0.00020388258748339668
+  },
+  "sigma_0.005_m": {
+    "M0": {
+      "n": 10000,
+      "crossing_probability": 0.9999999999999996,
+      "goal_probability": 0.9609999999999996,
+      "radius_clearance_probability": 0.9219999999999997,
+      "ground_before_goal_probability": 0.0,
+      "no_forward_crossing_probability": 0.0,
+      "numerical_failure_probability": 0.0,
+      "status_counts": {
+        "goal_plane": 10000
+      },
+      "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+      "mean_yz_m": [
+        2.490691764977212,
+        1.9181428144115058
+      ],
+      "covariance_m2": [
+        [
+          0.08491760255543873,
+          0.0002689749607828455
+        ],
+        [
+          0.0002689749607828453,
+          0.08344746599974413
+        ]
+      ],
+      "std_yz_m": [
+        0.2914062500280986,
+        0.2888727505316902
+      ],
+      "median_yz_m": [
+        2.486960083690197,
+        1.9157170078676062
+      ],
+      "marginal_95_yz_m": [
+        [
+          1.9204138418998695,
+          3.071239561104987
+        ],
+        [
+          1.3580926104064814,
+          2.5035095981075557
+        ]
+      ],
+      "mean_crossing_time_s": 0.4057756831981657,
+      "crossing_time_95_s": [
+        0.3844221315381393,
+        0.4322643046624238
+      ],
+      "region_q95": 6.051233967386831,
+      "ellipse_semiaxes_m": [
+        0.7104024935300762,
+        0.7170388545600476
+      ],
+      "ellipse_eigenvectors": [
+        [
+          0.17449462397580015,
+          -0.9846581265614702
+        ],
+        [
+          -0.9846581265614702,
+          -0.17449462397580015
+        ]
+      ],
+      "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage"
+    },
+    "M1": {
+      "n": 10000,
+      "crossing_probability": 0.9999999999999996,
+      "goal_probability": 0.9999999999999996,
+      "radius_clearance_probability": 0.9999999999999996,
+      "ground_before_goal_probability": 0.0,
+      "no_forward_crossing_probability": 0.0,
+      "numerical_failure_probability": 0.0,
+      "status_counts": {
+        "goal_plane": 10000
+      },
+      "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+      "mean_yz_m": [
+        3.217140205593277,
+        1.906550669326235
+      ],
+      "covariance_m2": [
+        [
+          0.0002933744728387899,
+          8.22970531726397e-06
+        ],
+        [
+          8.22970531726397e-06,
+          0.0002725715923401433
+        ]
+      ],
+      "std_yz_m": [
+        0.01712817774425493,
+        0.01650974234626765
+      ],
+      "median_yz_m": [
+        3.217253339048509,
+        1.9065808141290805
+      ],
+      "marginal_95_yz_m": [
+        [
+          3.1839380541181335,
+          3.250846253251456
+        ],
+        [
+          1.8740158739335906,
+          1.9389600677038599
+        ]
+      ],
+      "mean_crossing_time_s": 0.39376636992461755,
+      "crossing_time_95_s": [
+        0.3925524054925336,
+        0.3949616706146487
+      ],
+      "region_q95": 6.01400697299012,
+      "ellipse_semiaxes_m": [
+        0.04027450259268225,
+        0.04220862498630411
+      ],
+      "ellipse_eigenvectors": [
+        [
+          0.32846556281661465,
+          -0.9445159469503754
+        ],
+        [
+          -0.9445159469503754,
+          -0.32846556281661465
+        ]
+      ],
+      "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage"
+    },
+    "M2": {
+      "n": 10000,
+      "crossing_probability": 1.0,
+      "goal_probability": 0.9957418354153278,
+      "radius_clearance_probability": 0.9784319804026431,
+      "ground_before_goal_probability": 0.0,
+      "no_forward_crossing_probability": 0.0,
+      "numerical_failure_probability": 0.0,
+      "status_counts": {
+        "goal_plane": 10000
+      },
+      "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+      "mean_yz_m": [
+        2.8694836624686464,
+        1.9322933111987248
+      ],
+      "covariance_m2": [
+        [
+          0.04639035241810899,
+          0.00038902221832123093
+        ],
+        [
+          0.00038902221832123104,
+          0.03496260061554364
+        ]
+      ],
+      "std_yz_m": [
+        0.2153841972339405,
+        0.1869828885634823
+      ],
+      "median_yz_m": [
+        2.8668918585238963,
+        1.9231427012837028
+      ],
+      "marginal_95_yz_m": [
+        [
+          2.479239743788849,
+          3.258713536118444
+        ],
+        [
+          1.5699059166359104,
+          2.3093836091486994
+        ]
+      ],
+      "mean_crossing_time_s": 0.3981398306139609,
+      "crossing_time_95_s": [
+        0.38522364625610317,
+        0.40774530598228714
+      ],
+      "region_q95": 5.259859149222712,
+      "ellipse_semiaxes_m": [
+        0.4287525844663205,
+        0.4940407833810829
+      ],
+      "ellipse_eigenvectors": [
+        [
+          0.033982887870078415,
+          -0.99942241486371
+        ],
+        [
+          -0.99942241486371,
+          -0.033982887870078415
+        ]
+      ],
+      "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage",
+      "ess": 1555.351317770978,
+      "invalid_nuisance_fits": 0,
+      "goal_probability_mc_se": 0.0005909930613145395
+    }
+  },
+  "sigma_0.01_m": {
+    "M0": {
+      "n": 10000,
+      "crossing_probability": 0.9973999999999996,
+      "goal_probability": 0.7933999999999999,
+      "radius_clearance_probability": 0.7321999999999999,
+      "ground_before_goal_probability": 0.002499999999999999,
+      "no_forward_crossing_probability": 9.999999999999998e-05,
+      "numerical_failure_probability": 0.0,
+      "status_counts": {
+        "goal_plane": 9974,
+        "ground_before_goal": 25,
+        "no_forward_crossing": 1
+      },
+      "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+      "mean_yz_m": [
+        2.4956278261015057,
+        1.9267730538504677
+      ],
+      "covariance_m2": [
+        [
+          0.3559401231740776,
+          -0.003749743045005019
+        ],
+        [
+          -0.0037497430450050204,
+          0.348560051865127
+        ]
+      ],
+      "std_yz_m": [
+        0.5966071766028948,
+        0.5903897457316878
+      ],
+      "median_yz_m": [
+        2.4879314769237912,
+        1.9167630607608879
+      ],
+      "marginal_95_yz_m": [
+        [
+          1.3374576559288982,
+          3.693626381908104
+        ],
+        [
+          0.7766908003345422,
+          3.1541235576509647
+        ]
+      ],
+      "mean_crossing_time_s": 0.4085211499173262,
+      "crossing_time_95_s": [
+        0.3670785286746151,
+        0.4717391052969844
+      ],
+      "region_q95": 6.361042920270921,
+      "ellipse_semiaxes_m": [
+        1.4856692750920544,
+        1.508026079287161
+      ],
+      "ellipse_eigenvectors": [
+        [
+          -0.38638752523791847,
+          -0.9223365331268826
+        ],
+        [
+          -0.9223365331268826,
+          0.38638752523791847
+        ]
+      ],
+      "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage"
+    },
+    "M1": {
+      "n": 10000,
+      "crossing_probability": 0.9999999999999996,
+      "goal_probability": 0.9999999999999996,
+      "radius_clearance_probability": 0.9999999999999996,
+      "ground_before_goal_probability": 0.0,
+      "no_forward_crossing_probability": 0.0,
+      "numerical_failure_probability": 0.0,
+      "status_counts": {
+        "goal_plane": 10000
+      },
+      "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+      "mean_yz_m": [
+        3.217639617769,
+        1.9060924200564024
+      ],
+      "covariance_m2": [
+        [
+          0.001187026148312761,
+          3.109527053672943e-05
+        ],
+        [
+          3.1095270536729425e-05,
+          0.001099274628035963
+        ]
+      ],
+      "std_yz_m": [
+        0.03445324583131118,
+        0.03315531070637045
+      ],
+      "median_yz_m": [
+        3.2175380238673696,
+        1.9058190258828818
+      ],
+      "marginal_95_yz_m": [
+        [
+          3.149819246851636,
+          3.2844560793705435
+        ],
+        [
+          1.8424618523701182,
+          1.971545616638539
+        ]
+      ],
+      "mean_crossing_time_s": 0.39375859517544365,
+      "crossing_time_95_s": [
+        0.3913689374162641,
+        0.3961491917728571
+      ],
+      "region_q95": 5.99518203971331,
+      "ellipse_semiaxes_m": [
+        0.08081454053952689,
+        0.08471009024392333
+      ],
+      "ellipse_eigenvectors": [
+        [
+          0.30341490105707486,
+          -0.952858540296788
+        ],
+        [
+          -0.952858540296788,
+          -0.30341490105707486
+        ]
+      ],
+      "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage"
+    },
+    "M2": {
+      "n": 10000,
+      "crossing_probability": 1.0,
+      "goal_probability": 0.9646200904390883,
+      "radius_clearance_probability": 0.9193889681834835,
+      "ground_before_goal_probability": 0.0,
+      "no_forward_crossing_probability": 0.0,
+      "numerical_failure_probability": 0.0,
+      "status_counts": {
+        "goal_plane": 10000
+      },
+      "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+      "mean_yz_m": [
+        3.0833501208182863,
+        1.9201264175527186
+      ],
+      "covariance_m2": [
+        [
+          0.0624818767709654,
+          -0.00038760964312167903
+        ],
+        [
+          -0.00038760964312167936,
+          0.05611927724605479
+        ]
+      ],
+      "std_yz_m": [
+        0.24996375091393833,
+        0.23689507644958516
+      ],
+      "median_yz_m": [
+        3.123835844830335,
+        1.910823141600727
+      ],
+      "marginal_95_yz_m": [
+        [
+          2.5645217947040475,
+          3.5561378481744255
+        ],
+        [
+          1.4308701775872432,
+          2.4336722240988107
+        ]
+      ],
+      "mean_crossing_time_s": 0.39607186812393624,
+      "crossing_time_95_s": [
+        0.3808276076337318,
+        0.4099030873095238
+      ],
+      "region_q95": 6.541969791578998,
+      "ellipse_semiaxes_m": [
+        0.6057860256027284,
+        0.6394595045897783
+      ],
+      "ellipse_eigenvectors": [
+        [
+          -0.06058409412483331,
+          -0.9981630966626013
+        ],
+        [
+          -0.9981630966626013,
+          0.06058409412483331
+        ]
+      ],
+      "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage",
+      "ess": 7017.199715308051,
+      "invalid_nuisance_fits": 0,
+      "goal_probability_mc_se": 0.001568402022480418
+    }
+  },
+  "M2_kde_mode": {
+    "mode_yz_m": [
+      3.212331381901789,
+      1.901528868428016
+    ],
+    "grid_spacing_yz_m": [
+      0.020199330568608877,
+      0.020172062538145207
+    ],
+    "bandwidth_covariance_m2": [
+      [
+        0.0032636190060451897,
+        -2.0246033947657286e-05
+      ],
+      [
+        -2.0246033947657303e-05,
+        0.002931281025650182
+      ]
+    ],
+    "grid_size": 65
+  },
+  "representative_nuisance": {
+    "cd": 0.2819833130910949,
+    "omega": [
+      3.4129554884400655,
+      -1.4188577267291953,
+      -12.621208940551274
+    ],
+    "rho": 1.2258471372627124
+  },
+  "uncertainty_components": {
+    "aerodynamic_only": {
+      "n": 10000,
+      "crossing_probability": 1.0,
+      "goal_probability": 0.9667338059082894,
+      "radius_clearance_probability": 0.920930007600255,
+      "ground_before_goal_probability": 0.0,
+      "no_forward_crossing_probability": 0.0,
+      "numerical_failure_probability": 0.0,
+      "status_counts": {
+        "goal_plane": 10000
+      },
+      "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+      "mean_yz_m": [
+        3.083234460914403,
+        1.9202412376600446
+      ],
+      "covariance_m2": [
+        [
+          0.06147799362757061,
+          -0.00025923538929879125
+        ],
+        [
+          -0.00025923538929879125,
+          0.05494353388816026
+        ]
+      ],
+      "std_yz_m": [
+        0.24794756225373665,
+        0.23440037092155008
+      ],
+      "median_yz_m": [
+        3.1239275704903764,
+        1.9084098125859437
+      ],
+      "marginal_95_yz_m": [
+        [
+          2.564723003445653,
+          3.5560570787539314
+        ],
+        [
+          1.431249550991139,
+          2.429419760982035
+        ]
+      ],
+      "mean_crossing_time_s": 0.3960656661546721,
+      "crossing_time_95_s": [
+        0.3810813563788247,
+        0.4094383258103227
+      ],
+      "region_q95": 6.665509979481308,
+      "ellipse_semiaxes_m": [
+        0.6051100976114618,
+        0.6401957694730643
+      ],
+      "ellipse_eigenvectors": [
+        [
+          -0.039578767255147515,
+          -0.9992164536188156
+        ],
+        [
+          -0.9992164536188156,
+          0.039578767255147515
+        ]
+      ],
+      "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage"
+    },
+    "measurement_only": {
+      "n": 10000,
+      "crossing_probability": 0.9999999999999996,
+      "goal_probability": 0.9999999999999996,
+      "radius_clearance_probability": 0.9999999999999996,
+      "ground_before_goal_probability": 0.0,
+      "no_forward_crossing_probability": 0.0,
+      "numerical_failure_probability": 0.0,
+      "status_counts": {
+        "goal_plane": 10000
+      },
+      "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+      "mean_yz_m": [
+        3.080553052514234,
+        1.9192309605505382
+      ],
+      "covariance_m2": [
+        [
+          0.0011626386916737037,
+          2.849709706282031e-05
+        ],
+        [
+          2.849709706282032e-05,
+          0.0010932822988212396
+        ]
+      ],
+      "std_yz_m": [
+        0.034097488055188224,
+        0.033064819655053916
+      ],
+      "median_yz_m": [
+        3.0804433660164108,
+        1.9189378725229063
+      ],
+      "marginal_95_yz_m": [
+        [
+          3.013619331640564,
+          3.1469392110002485
+        ],
+        [
+          1.855747255581127,
+          1.9846483274815543
+        ]
+      ],
+      "mean_crossing_time_s": 0.3956341676159906,
+      "crossing_time_95_s": [
+        0.3932382972662163,
+        0.39802031882136896
+      ],
+      "region_q95": 5.983006440686743,
+      "ellipse_semiaxes_m": [
+        0.08049874381358105,
+        0.0837683834166991
+      ],
+      "ellipse_eigenvectors": [
+        [
+          0.3371933599458989,
+          -0.9414354136149731
+        ],
+        [
+          -0.9414354136149731,
+          -0.3371933599458989
+        ]
+      ],
+      "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage"
+    },
+    "combined": {
+      "n": 10000,
+      "crossing_probability": 1.0,
+      "goal_probability": 0.9646200904390883,
+      "radius_clearance_probability": 0.9193889681834835,
+      "ground_before_goal_probability": 0.0,
+      "no_forward_crossing_probability": 0.0,
+      "numerical_failure_probability": 0.0,
+      "status_counts": {
+        "goal_plane": 10000
+      },
+      "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+      "mean_yz_m": [
+        3.0833501208182863,
+        1.9201264175527186
+      ],
+      "covariance_m2": [
+        [
+          0.0624818767709654,
+          -0.00038760964312167903
+        ],
+        [
+          -0.00038760964312167936,
+          0.05611927724605479
+        ]
+      ],
+      "std_yz_m": [
+        0.24996375091393833,
+        0.23689507644958516
+      ],
+      "median_yz_m": [
+        3.123835844830335,
+        1.910823141600727
+      ],
+      "marginal_95_yz_m": [
+        [
+          2.5645217947040475,
+          3.5561378481744255
+        ],
+        [
+          1.4308701775872432,
+          2.4336722240988107
+        ]
+      ],
+      "mean_crossing_time_s": 0.39607186812393624,
+      "crossing_time_95_s": [
+        0.3808276076337318,
+        0.4099030873095238
+      ],
+      "region_q95": 6.541969791578998,
+      "ellipse_semiaxes_m": [
+        0.6057860256027284,
+        0.6394595045897783
+      ],
+      "ellipse_eigenvectors": [
+        [
+          -0.06058409412483331,
+          -0.9981630966626013
+        ],
+        [
+          -0.9981630966626013,
+          0.06058409412483331
+        ]
+      ],
+      "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage",
+      "ess": 7017.199715308051,
+      "invalid_nuisance_fits": 0,
+      "goal_probability_mc_se": 0.001568402022480418
+    },
+    "interpretation": "Aerodynamic-only keeps observations fixed and retains sigma=.01 likelihood; components are not additive variances."
+  },
+  "representative_velocity_m_s": [
+    30.30634810980411,
+    8.97936292102605,
+    6.924932730895117
+  ],
+  "sigma_0.02_m": {
+    "M0": {
+      "n": 10000,
+      "crossing_probability": 0.8885999999999996,
+      "goal_probability": 0.4982999999999998,
+      "radius_clearance_probability": 0.46059999999999984,
+      "ground_before_goal_probability": 0.09759999999999999,
+      "no_forward_crossing_probability": 0.013799999999999996,
+      "numerical_failure_probability": 0.0,
+      "status_counts": {
+        "goal_plane": 8886,
+        "ground_before_goal": 976,
+        "no_forward_crossing": 138
+      },
+      "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+      "mean_yz_m": [
+        2.5073035911256807,
+        2.0858893235896634
+      ],
+      "covariance_m2": [
+        [
+          1.610377721548632,
+          0.031752190674941366
+        ],
+        [
+          0.031752190674941366,
+          1.219772361913027
+        ]
+      ],
+      "std_yz_m": [
+        1.2690065884575352,
+        1.1044330499912736
+      ],
+      "median_yz_m": [
+        2.46206429330295,
+        1.9935903405089104
+      ],
+      "marginal_95_yz_m": [
+        [
+          0.0954298673055116,
+          5.15462719056401
+        ],
+        [
+          0.3145822602110604,
+          4.512700088267635
+        ]
+      ],
+      "mean_crossing_time_s": 0.41073827188240075,
+      "crossing_time_95_s": [
+        0.34245390228864536,
+        0.5415107350326215
+      ],
+      "region_q95": 6.339060976207578,
+      "ellipse_semiaxes_m": [
+        2.7777610010201963,
+        3.197583114180724
+      ],
+      "ellipse_eigenvectors": [
+        [
+          0.08049743633848228,
+          -0.9967548157610938
+        ],
+        [
+          -0.9967548157610938,
+          -0.08049743633848228
+        ]
+      ],
+      "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage"
+    },
+    "M1": {
+      "n": 10000,
+      "crossing_probability": 0.9999999999999996,
+      "goal_probability": 0.9999999999999996,
+      "radius_clearance_probability": 0.9999999999999996,
+      "ground_before_goal_probability": 0.0,
+      "no_forward_crossing_probability": 0.0,
+      "numerical_failure_probability": 0.0,
+      "status_counts": {
+        "goal_plane": 10000
+      },
+      "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+      "mean_yz_m": [
+        3.218089106837097,
+        1.906244547556635
+      ],
+      "covariance_m2": [
+        [
+          0.00470981564541461,
+          6.001241355102906e-05
+        ],
+        [
+          6.0012413551029075e-05,
+          0.004354342258061748
+        ]
+      ],
+      "std_yz_m": [
+        0.06862809661803691,
+        0.06598744015387889
+      ],
+      "median_yz_m": [
+        3.2170921559040773,
+        1.9054904824827232
+      ],
+      "marginal_95_yz_m": [
+        [
+          3.085886134261774,
+          3.355541220412158
+        ],
+        [
+          1.7775674239367565,
+          2.0370734866993887
+        ]
+      ],
+      "mean_crossing_time_s": 0.3937947325602233,
+      "crossing_time_95_s": [
+        0.38903541768893773,
+        0.39863779860090875
+      ],
+      "region_q95": 6.185392539518688,
+      "ellipse_semiaxes_m": [
+        0.1639278488991712,
+        0.17085969398448692
+      ],
+      "ellipse_eigenvectors": [
+        [
+          0.16209591874583118,
+          -0.9867750063342426
+        ],
+        [
+          -0.9867750063342426,
+          -0.16209591874583118
+        ]
+      ],
+      "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage"
+    },
+    "M2": {
+      "n": 10000,
+      "crossing_probability": 1.0,
+      "goal_probability": 0.915865632207578,
+      "radius_clearance_probability": 0.8485627247146843,
+      "ground_before_goal_probability": 0.0,
+      "no_forward_crossing_probability": 0.0,
+      "numerical_failure_probability": 0.0,
+      "status_counts": {
+        "goal_plane": 10000
+      },
+      "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+      "mean_yz_m": [
+        3.1783883570993092,
+        1.9128826906969396
+      ],
+      "covariance_m2": [
+        [
+          0.07786289313369858,
+          0.002015049590538669
+        ],
+        [
+          0.002015049590538669,
+          0.07307314445243256
+        ]
+      ],
+      "std_yz_m": [
+        0.2790392322482604,
+        0.27032044771424996
+      ],
+      "median_yz_m": [
+        3.1849767702869,
+        1.9055561984017222
+      ],
+      "marginal_95_yz_m": [
+        [
+          2.6143442134823722,
+          3.7689342072995973
+        ],
+        [
+          1.3580358595838342,
+          2.478172571222819
+        ]
+      ],
+      "mean_crossing_time_s": 0.3955463383568141,
+      "crossing_time_95_s": [
+        0.3795932784309325,
+        0.412195346756463
+      ],
+      "region_q95": 6.810308451992257,
+      "ellipse_semiaxes_m": [
+        0.7018870032571151,
+        0.7316253188222757
+      ],
+      "ellipse_eigenvectors": [
+        [
+          0.3426538651150534,
+          -0.9394617228614026
+        ],
+        [
+          -0.9394617228614026,
+          -0.3426538651150534
+        ]
+      ],
+      "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage",
+      "ess": 9609.523106684255,
+      "invalid_nuisance_fits": 0,
+      "goal_probability_mc_se": 0.002474642506751577
+    }
+  },
+  "sigma_0.05_m": {
+    "M0": {
+      "n": 10000,
+      "crossing_probability": 0.5680999999999998,
+      "goal_probability": 0.205,
+      "radius_clearance_probability": 0.19119999999999998,
+      "ground_before_goal_probability": 0.3267999999999999,
+      "no_forward_crossing_probability": 0.10509999999999997,
+      "numerical_failure_probability": 0.0,
+      "status_counts": {
+        "goal_plane": 5681,
+        "ground_before_goal": 3268,
+        "no_forward_crossing": 1051
+      },
+      "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+      "mean_yz_m": [
+        2.3384607772533226,
+        2.9122363261397317
+      ],
+      "covariance_m2": [
+        [
+          7.8698712333300485,
+          0.054149244323389266
+        ],
+        [
+          0.0541492443233893,
+          4.726098132300332
+        ]
+      ],
+      "std_yz_m": [
+        2.8053290775468835,
+        2.1739590916805063
+      ],
+      "median_yz_m": [
+        2.3343708672555934,
+        2.452368465139816
+      ],
+      "marginal_95_yz_m": [
+        [
+          -3.3555281344707764,
+          8.021475492686498
+        ],
+        [
+          0.25538335389616185,
+          8.304477572100017
+        ]
+      ],
+      "mean_crossing_time_s": 0.381847448818558,
+      "crossing_time_95_s": [
+        0.2905857643755108,
+        0.556746144443789
+      ],
+      "region_q95": 7.375542302685717,
+      "ellipse_semiaxes_m": [
+        5.903444732131598,
+        7.61914989970718
+      ],
+      "ellipse_eigenvectors": [
+        [
+          0.017216625966366476,
+          -0.9998517829110144
+        ],
+        [
+          -0.9998517829110144,
+          -0.017216625966366476
+        ]
+      ],
+      "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage"
+    },
+    "M1": {
+      "n": 10000,
+      "crossing_probability": 0.9999999999999996,
+      "goal_probability": 0.9922999999999995,
+      "radius_clearance_probability": 0.9685999999999997,
+      "ground_before_goal_probability": 0.0,
+      "no_forward_crossing_probability": 0.0,
+      "numerical_failure_probability": 0.0,
+      "status_counts": {
+        "goal_plane": 10000
+      },
+      "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+      "mean_yz_m": [
+        3.215794780076558,
+        1.9059714103319356
+      ],
+      "covariance_m2": [
+        [
+          0.030676126745702515,
+          0.0008958940927738791
+        ],
+        [
+          0.0008958940927738791,
+          0.02795172231284668
+        ]
+      ],
+      "std_yz_m": [
+        0.1751460155005032,
+        0.16718768588878394
+      ],
+      "median_yz_m": [
+        3.214346579034182,
+        1.908365007838913
+      ],
+      "marginal_95_yz_m": [
+        [
+          2.8708704640402254,
+          3.5583188603948344
+        ],
+        [
+          1.57086946230612,
+          2.2259552775753697
+        ]
+      ],
+      "mean_crossing_time_s": 0.3937653201794056,
+      "crossing_time_95_s": [
+        0.3819999840277888,
+        0.40593679878621275
+      ],
+      "region_q95": 5.881977301596243,
+      "ellipse_semiaxes_m": [
+        0.4035267430360013,
+        0.42663080650435226
+      ],
+      "ellipse_eigenvectors": [
+        [
+          0.28679331642956274,
+          -0.9579924809993724
+        ],
+        [
+          -0.9579924809993724,
+          -0.28679331642956274
+        ]
+      ],
+      "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage"
+    },
+    "M2": {
+      "n": 10000,
+      "crossing_probability": 1.0,
+      "goal_probability": 0.8638899223654204,
+      "radius_clearance_probability": 0.7730966593685811,
+      "ground_before_goal_probability": 0.0,
+      "no_forward_crossing_probability": 0.0,
+      "numerical_failure_probability": 0.0,
+      "status_counts": {
+        "goal_plane": 10000
+      },
+      "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+      "mean_yz_m": [
+        3.2139886517981044,
+        1.9045197021338622
+      ],
+      "covariance_m2": [
+        [
+          0.10859338903510715,
+          0.0015972150787667042
+        ],
+        [
+          0.0015972150787667044,
+          0.10445900349077224
+        ]
+      ],
+      "std_yz_m": [
+        0.3295351104739936,
+        0.32320118114074436
+      ],
+      "median_yz_m": [
+        3.208567338008148,
+        1.9020230301011796
+      ],
+      "marginal_95_yz_m": [
+        [
+          2.565696534147202,
+          3.8932359048985443
+        ],
+        [
+          1.255752315240041,
+          2.563378625156104
+        ]
+      ],
+      "mean_crossing_time_s": 0.3955733201232033,
+      "crossing_time_95_s": [
+        0.37564850474997563,
+        0.41676928813116676
+      ],
+      "region_q95": 6.292256620408804,
+      "ellipse_semiaxes_m": [
+        0.8086115110039458,
+        0.8286903834586326
+      ],
+      "ellipse_eigenvectors": [
+        [
+          0.3230210151382431,
+          -0.9463917919017782
+        ],
+        [
+          -0.9463917919017782,
+          -0.3230210151382431
+        ]
+      ],
+      "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage",
+      "ess": 9976.316715839665,
+      "invalid_nuisance_fits": 0,
+      "goal_probability_mc_se": 0.0033771136258925
+    }
+  }
+}

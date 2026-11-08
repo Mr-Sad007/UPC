@@ -1,0 +1,4 @@
+numpy==2.5.0
+matplotlib==3.11.0
+pytest==9.1.0
+reportlab>=4.0

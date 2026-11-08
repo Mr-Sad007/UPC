@@ -1,0 +1,20 @@
+{
+  "seed": 20261107,
+  "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.0",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "n_validation": 1000,
+  "posterior_particles_per_validation_case": 512,
+  "supplied_mc_samples": 10000,
+  "duration_generated_cases": 400,
+  "sigma_scenarios_m": [
+    0.005,
+    0.01,
+    0.02,
+    0.05
+  ],
+  "integrator": "vectorized RK4, dt=0.01 s; truth dt=0.0025 s; cubic Hermite event roots, 36 bisections",
+  "elapsed_experiment_seconds": 683.0406776999589,
+  "result_scope": "Synthetic assumed population. No measured camera noise or FIFA tracking data.",
+  "hash_checks": "Not performed, by explicit user instruction"
+}

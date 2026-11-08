@@ -1,0 +1,186 @@
+{
+  "supplied_case_source": "results/supplied_case.json",
+  "validation_source": "results/validation_metrics.csv",
+  "mismatch_source": "results/mismatch_metrics.csv",
+  "duration_source": "results/duration_metrics.csv",
+  "uncertainty": {
+    "n": 10000,
+    "crossing_probability": 1.0,
+    "goal_probability": 0.9646200904390883,
+    "radius_clearance_probability": 0.9193889681834835,
+    "ground_before_goal_probability": 0.0,
+    "no_forward_crossing_probability": 0.0,
+    "numerical_failure_probability": 0.0,
+    "status_counts": {
+      "goal_plane": 10000
+    },
+    "conditioning": "Location statistics conditional on airborne goal-plane crossing",
+    "mean_yz_m": [
+      3.0833501208182863,
+      1.9201264175527186
+    ],
+    "covariance_m2": [
+      [
+        0.0624818767709654,
+        -0.00038760964312167903
+      ],
+      [
+        -0.00038760964312167936,
+        0.05611927724605479
+      ]
+    ],
+    "std_yz_m": [
+      0.24996375091393833,
+      0.23689507644958516
+    ],
+    "median_yz_m": [
+      3.123835844830335,
+      1.910823141600727
+    ],
+    "marginal_95_yz_m": [
+      [
+        2.5645217947040475,
+        3.5561378481744255
+      ],
+      [
+        1.4308701775872432,
+        2.4336722240988107
+      ]
+    ],
+    "mean_crossing_time_s": 0.39607186812393624,
+    "crossing_time_95_s": [
+      0.3808276076337318,
+      0.4099030873095238
+    ],
+    "region_q95": 6.541969791578998,
+    "ellipse_semiaxes_m": [
+      0.6057860256027284,
+      0.6394595045897783
+    ],
+    "ellipse_eigenvectors": [
+      [
+        -0.06058409412483331,
+        -0.9981630966626013
+      ],
+      [
+        -0.9981630966626013,
+        0.06058409412483331
+      ]
+    ],
+    "region_definition": "Empirical 95% Mahalanobis ellipse; posterior content, not guaranteed frequentist coverage",
+    "ess": 7017.199715308051,
+    "invalid_nuisance_fits": 0,
+    "goal_probability_mc_se": 0.001568402022480418
+  },
+  "central_metrics": {
+    "M0": {
+      "population": "matched",
+      "sigma_m": 0.01,
+      "model": "M0",
+      "n_cases": 1000.0,
+      "n_true_crossings": 958.0,
+      "n_coordinate_errors": 839.0,
+      "n_common": 836.0,
+      "mean_error_m": 0.895491433836343,
+      "median_error_m": 0.7854772997275843,
+      "p95_error_m": 1.9698071111273112,
+      "rmse_m": 1.0682067044845742,
+      "common_rmse_m": 1.0683600514429636,
+      "common_mean_error_m": 0.8953812169275357,
+      "common_median_error_m": 0.7848561372019895,
+      "common_p95_error_m": 1.97022048430856,
+      "mae_y_m": 0.5958034427333143,
+      "mae_z_m": 0.5402159246840121,
+      "no_point_rate_on_true_crossings": 0.12421711899791232,
+      "classification_accuracy": 0.712,
+      "coverage_95": null,
+      "coverage_n": 0.0,
+      "elapsed_s_per_case": 3.7389993667602527e-07,
+      "minimum_ess": null,
+      "median_ess": null,
+      "numerical_failure_rate": 0.0,
+      "mean_particle_numerical_failure_probability": 0.0,
+      "low_ess_cases": 0.0
+    },
+    "M1": {
+      "population": "matched",
+      "sigma_m": 0.01,
+      "model": "M1",
+      "n_cases": 1000.0,
+      "n_true_crossings": 958.0,
+      "n_coordinate_errors": 949.0,
+      "n_common": 836.0,
+      "mean_error_m": 0.378624823041978,
+      "median_error_m": 0.3431124093900638,
+      "p95_error_m": 0.8314402258252676,
+      "rmse_m": 0.4548648184522588,
+      "common_rmse_m": 0.4511981635526083,
+      "common_mean_error_m": 0.3745179815427647,
+      "common_median_error_m": 0.3331270470140532,
+      "common_p95_error_m": 0.8292430686715391,
+      "mae_y_m": 0.25039967515716793,
+      "mae_z_m": 0.23395609904411738,
+      "no_point_rate_on_true_crossings": 0.009394572025052192,
+      "classification_accuracy": 0.877,
+      "coverage_95": null,
+      "coverage_n": 0.0,
+      "elapsed_s_per_case": 9.40519999712706e-05,
+      "minimum_ess": null,
+      "median_ess": null,
+      "numerical_failure_rate": 0.0,
+      "mean_particle_numerical_failure_probability": 0.0,
+      "low_ess_cases": 0.0
+    },
+    "M2": {
+      "population": "matched",
+      "sigma_m": 0.01,
+      "model": "M2",
+      "n_cases": 1000.0,
+      "n_true_crossings": 958.0,
+      "n_coordinate_errors": 958.0,
+      "n_common": 836.0,
+      "mean_error_m": 0.3514408917671849,
+      "median_error_m": 0.3064377987105758,
+      "p95_error_m": 0.7676460894742132,
+      "rmse_m": 0.4134190809532436,
+      "common_rmse_m": 0.4091152801330082,
+      "common_mean_error_m": 0.34797002435306773,
+      "common_median_error_m": 0.3016257462719377,
+      "common_p95_error_m": 0.7555925681353064,
+      "mae_y_m": 0.23129030611206744,
+      "mae_z_m": 0.21635153577872326,
+      "no_point_rate_on_true_crossings": 0.0,
+      "classification_accuracy": 0.898,
+      "coverage_95": 0.9457202505219207,
+      "coverage_n": 958.0,
+      "elapsed_s_per_case": 0.08841620220046024,
+      "minimum_ess": 30.253521602385522,
+      "median_ess": 349.89820380498315,
+      "numerical_failure_rate": 0.0,
+      "mean_particle_numerical_failure_probability": 0.0,
+      "low_ess_cases": 0.0
+    }
+  },
+  "most_likely_mode": {
+    "mode_yz_m": [
+      3.212331381901789,
+      1.901528868428016
+    ],
+    "grid_spacing_yz_m": [
+      0.020199330568608877,
+      0.020172062538145207
+    ],
+    "bandwidth_covariance_m2": [
+      [
+        0.0032636190060451897,
+        -2.0246033947657286e-05
+      ],
+      [
+        -2.0246033947657303e-05,
+        0.002931281025650182
+      ]
+    ],
+    "grid_size": 65
+  },
+  "abstract_word_count": 173
+}
