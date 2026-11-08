@@ -19,15 +19,13 @@ force push, contest submission or email is performed.
 ## Retained locally and excluded
 
 - Internal AI_LOG.md and raw conversation snapshots, which contain local-account
-  paths and operational context. See ../AI_USAGE.md for the public disclosure.
+  paths and operational context. See the AI-use section of the paper.
 - Python/pytest caches, rendered page previews, local build logs and credentials.
 
 The original local research project and private AI records are preserved. This
 publication checkout is a separate snapshot. Numerical datasets and the scientific
 paper were copied without altering results. Markdown links are repository-relative.
-The public audit accepts AI_USAGE.md when the private AI_LOG.md is absent and uses
-a local-home-directory privacy check instead of a hardcoded original account name.
-The exact original prompt remains available for the AI-query content check.
+The public audit checks the manuscript disclosure.
 PDF, PNG and NPZ artifacts have explicit binary Git attributes so Windows text
 line-ending conversion cannot alter them on checkout.
 

@@ -1,8 +1,7 @@
 # Predicting penalty trajectories from the first 0.10 s
 
-[English paper (PDF)](paper/paper.pdf) · [LaTeX source](paper/paper.tex) · [Chinese team handoff](docs/PROJECT_HANDOFF_20261108_ZH.md) · [AI use](AI_USAGE.md) · [Publication scope](docs/publication_notes.md)
+[English paper (PDF)](paper/paper.pdf) · [LaTeX source](paper/paper.tex) · [Chinese team handoff](docs/PROJECT_HANDOFF_20261108_ZH.md) · [Publication scope](docs/publication_notes.md)
 
-[Original full research prompt (Chinese, verbatim)](docs/original_request.txt)
 
 Clone over SSH with `git clone git@github.com:Zephyr-Feng/UPC.git`, then run commands from the cloned repository root.
 
@@ -31,7 +30,6 @@ No SHA256 or alternative hash verification is performed. No package installation
 - results/: full numerical summaries, raw sample arrays and raw validation rows, including misses and failure classifications.
 - figures/: program-generated vector PDF and PNG pairs.
 - paper/: English manuscript, LaTeX source, bibliography and rendering/compilation status.
-- AI_USAGE.md and docs/original_request.txt: public AI-use statement and exact original research request. Full internal dialogue records are retained locally, not published.
 
 ## Interpretation boundaries
 
