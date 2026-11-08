@@ -2,6 +2,8 @@
 
 [English paper (PDF)](paper/paper.pdf) · [LaTeX source](paper/paper.tex) · [Chinese team handoff](docs/PROJECT_HANDOFF_20261108_ZH.md) · [AI use](AI_USAGE.md) · [Publication scope](docs/publication_notes.md)
 
+[Original full research prompt (Chinese, verbatim)](docs/original_request.txt)
+
 Clone over SSH with `git clone git@github.com:Zephyr-Feng/UPC.git`, then run commands from the cloned repository root.
 
 Detailed team handoff (Chinese, 2026-11-08): [project handoff](docs/PROJECT_HANDOFF_20261108_ZH.md).
